@@ -31,7 +31,6 @@ class Solution(object):
                 stk.append(evaluation)
             else: # t f ! & | (
                 stk.append(ch)
-        print(stk[-1])
         return stk[-1]=='t'
 
                     
